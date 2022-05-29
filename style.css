@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: navy;
+    color: white;
+    padding-left: 20px;
+    height: 10vh;
+}
+
+.head-routes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.allbreeds {
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.div-random, .div-search {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.div-breed {
+    display: inline;
+}
+
+.img-breed, .img-search {
+    padding-top: 10px;
+    height: 300px;
+    width: 400px;
+    display: inline;
+}
+
+.desc {
+    color: red;
+}
